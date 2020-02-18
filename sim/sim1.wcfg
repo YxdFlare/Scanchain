@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="H:/Documents/CREA/FPGA/Scanchain/build/test_dft_top_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_dft_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/test_dft_top/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_dft_top/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="group56" type="group">
+      <obj_property name="label">DFT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/test_dft_top/j" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">j[31:0]</obj_property>
+         <obj_property name="ObjectShortName">j[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_dft_top/dft_result" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">dft_result[63:0]</obj_property>
+         <obj_property name="ObjectShortName">dft_result[63:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_dft_top/dft_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">dft_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dft_out[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_dft_top/uut/dft_out_strobe" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">dft_out_strobe</obj_property>
+         <obj_property name="ObjectShortName">dft_out_strobe</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_dft_top/dft_val_op" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">dft_val_op</obj_property>
+         <obj_property name="ObjectShortName">dft_val_op</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_dft_top/dft_op_ack" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">dft_op_ack</obj_property>
+         <obj_property name="ObjectShortName">dft_op_ack</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_dft_top/dft_op_commit" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">dft_op_commit</obj_property>
+         <obj_property name="ObjectShortName">dft_op_commit</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_dft_top/dft_commit_ack" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">dft_commit_ack</obj_property>
+         <obj_property name="ObjectShortName">dft_commit_ack</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_dft_top/uut/ctrl/current_state" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_dft_top/uut/ctrl/buf_op" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">buf_op</obj_property>
+         <obj_property name="ObjectShortName">buf_op</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_dft_top/uut/ctrl/buf_reset" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">buf_reset</obj_property>
+         <obj_property name="ObjectShortName">buf_reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_dft_top/uut/ctrl/buf_op_commit" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">buf_op_commit</obj_property>
+         <obj_property name="ObjectShortName">buf_op_commit</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_dft_top/uut/ctrl/dump_cntov" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">dump_cntov</obj_property>
+         <obj_property name="ObjectShortName">dump_cntov</obj_property>
+      </wvobject>
+      <wvobject fp_name="group41" type="group">
+         <obj_property name="label">dump_cnt</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/test_dft_top/uut/ctrl/dump_cnt/cnt_max" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">cnt_max[31:0]</obj_property>
+            <obj_property name="ObjectShortName">cnt_max[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_dft_top/uut/ctrl/dump_cnt/cnt_min" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">cnt_min[31:0]</obj_property>
+            <obj_property name="ObjectShortName">cnt_min[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_dft_top/uut/ctrl/dump_cnt/cnt_value" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">cnt_value[31:0]</obj_property>
+            <obj_property name="ObjectShortName">cnt_value[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_dft_top/uut/ctrl/dump_cnt/cnten" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">cnten</obj_property>
+            <obj_property name="ObjectShortName">cnten</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/test_dft_top/uut/dut/sen" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sen</obj_property>
+      <obj_property name="ObjectShortName">sen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_dft_top/uut/dut/scan_ce" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">scan_ce</obj_property>
+      <obj_property name="ObjectShortName">scan_ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="group17" type="group">
+      <obj_property name="label">DUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/test_dft_top/data_in" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_dft_top/a_s" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">a_s</obj_property>
+         <obj_property name="ObjectShortName">a_s</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_dft_top/dut_val_op" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">dut_val_op</obj_property>
+         <obj_property name="ObjectShortName">dut_val_op</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_dft_top/dut_op_ack" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">dut_op_ack</obj_property>
+         <obj_property name="ObjectShortName">dut_op_ack</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_dft_top/dut_op_commit" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">dut_op_commit</obj_property>
+         <obj_property name="ObjectShortName">dut_op_commit</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_dft_top/data_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_dft_top/uut/dut/ctrl/current_state" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">current_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">current_state[1:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
